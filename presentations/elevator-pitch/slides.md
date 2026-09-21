@@ -65,11 +65,35 @@ An agent security, privacy, and observability layer — governing agent
 
 ---
 
+## How it works
+
+**Your company certificate, pushed to every workstation.** AgentKeeper sits
+between your agents and the LLM providers — no change to your agents or your
+code.
+
+```
+Agent  ──►  AgentKeeper  ──►  LLM provider
+```
+
+- **Redact** secrets and PII before they leave your network
+- **Enforce** policy on the tool calls an agent requests
+- **Record** an audit trail of what every agent did
+
+Every agent, sanctioned or not.
+
+<!--
+Speaker notes: we see what transits to the LLM providers (prompts, tool calls
+requested, tool results sent back) — not purely local actions. TODO: confirm the
+three capabilities above against the MVP scope once it is decided.
+-->
+
+---
+
 ## Why we're different
 
-1. **Governs actions, not just model calls.**
-   We see what the agent does with the tools, files, and credentials it's
-   granted — a layer above what any gateway can see.
+1. **Understands the agent, not just the traffic.**
+   We inspect the full agent loop — tool calls requested, data sent back to
+   the model — and apply policy per action, not generic filters on text.
 
 2. **Compliance-first design for regulated verticals.**
    Audit trails and controls built around healthcare/legal needs from day
@@ -85,7 +109,7 @@ An agent security, privacy, and observability layer — governing agent
 
 - Not a multi-provider LLM router or cost optimizer — that's LiteLLM /
   OpenGateLLM / OpenRouter territory.
-- Not an infrastructure/networking play — that's Solo.io's lane.
+- Not a general network or web-security suite — we focus on AI agents only.
 - Not for low-stakes internal tooling where agent actions carry little
   security or compliance risk.
 
