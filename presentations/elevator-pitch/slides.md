@@ -13,6 +13,20 @@ size: 16:9
 
 ---
 
+## The context
+
+AI agents are moving from chatbots to autonomous actors: given a task, they
+call tools, browse the web, read/write files, and use credentials to get it
+done — without a human approving each step.
+
+- **Coding agents** push commits, run shell commands, read source repos.
+- **Ops/support agents** call internal APIs and query customer data.
+- Enterprises are rolling these out **faster than they extend the access
+  controls and audit practices they already require for human employees**
+  with the same level of access.
+
+---
+
 ## The problem
 
 Companies adopting AI agents lose visibility and control the moment an agent
@@ -91,9 +105,31 @@ An agent security, privacy, and observability layer — governing agent
 
 ---
 
+## Benefits & advantages
+
+1. **Deploy on your terms.**
+   Self-hosted on your own cloud, or as a SaaS hosted in Europe — keep data
+   in-region for teams with strict residency requirements.
+
+2. **One view, not five dashboards.**
+   Agent cartography, live monitoring, and audit logs in a single
+   interface — no stitching together logs across tools to answer "what did
+   this agent do."
+
+3. **Stop it before it happens.**
+   Real-time policy enforcement blocks or redacts risky actions in-flight —
+   a leaked secret or an out-of-scope tool call gets caught before it
+   happens, not just logged after.
+
+---
+
 <!-- _paginate: false -->
 
 # Let's talk
 
-What does your team need to see and control before you trust an agent with
-production credentials and data?
+What does your team need to see and control before you trust an agent with production credentials and data?
+
+- **Pilot program** — try AgentKeeper on one agent, one workflow, for 30
+  days.
+- **Custom professional services** — integration, policy design, and
+  rollout support tailored to your stack and compliance requirements.
