@@ -1,0 +1,44 @@
+/* @theme dark-slate */
+@import 'default';
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap');
+
+:root {
+  --color-background: #1e293b;
+  --color-foreground: #e2e8f0;
+  --color-highlight: #38bdf8;
+  --color-header: #94a3b8;
+  --color-header-text: #e2e8f0;
+}
+
+section {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: 'Inter', sans-serif;
+}
+
+section a {
+  color: var(--color-highlight);
+}
+
+section h1,
+section h2,
+section h3 {
+  color: #f8fafc;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+section strong {
+  color: var(--color-highlight);
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+}
+
+section code,
+section pre {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+section header,
+section footer {
+  color: var(--color-header-text);
+}

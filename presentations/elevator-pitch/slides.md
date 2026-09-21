@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: default
+theme: dark-slate
 paginate: true
 size: 16:9
 ---
