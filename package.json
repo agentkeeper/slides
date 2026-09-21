@@ -1,0 +1,15 @@
+{
+  "name": "agentkeeper-slides",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Marp slide decks for AgentKeeper presentations",
+  "scripts": {
+    "watch": "marp --watch --html --input-dir presentations --output dist",
+    "build": "marp --html --input-dir presentations --output dist",
+    "pdf": "marp --html --pdf --allow-local-files --input-dir presentations --output dist",
+    "serve": "marp --server presentations"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^3.4.0"
+  }
+}
