@@ -5,7 +5,7 @@
   "description": "Marp slide decks for AgentKeeper presentations",
   "scripts": {
     "watch": "marp --watch --html --input-dir presentations --output dist",
-    "build": "marp --html --input-dir presentations --output dist && node scripts/build-index.js",
+    "build": "marp --html --input-dir presentations --output dist && node scripts/copy-assets.js && node scripts/build-index.js",
     "pdf": "marp --html --pdf --allow-local-files --input-dir presentations --output dist",
     "serve": "marp --server presentations"
   },
