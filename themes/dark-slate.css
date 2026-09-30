@@ -42,3 +42,37 @@ section header,
 section footer {
   color: var(--color-header-text);
 }
+
+/* Row of product screenshots with captions: <!-- _class: screens --> + a list of
+   "![alt](img)\n  caption" items; a paragraph after the list is a footnote. */
+section.screens ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 16px;
+  padding: 0;
+  list-style: none;
+}
+
+section.screens li {
+  margin: 0;
+  font-size: 0.6em;
+  line-height: 1.4;
+}
+
+section.screens li img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  object-position: top left;
+  margin-bottom: 10px;
+  border: 1px solid #334155;
+  border-radius: 6px;
+}
+
+section.screens > p {
+  margin-top: 32px;
+  font-size: 0.5em;
+  color: var(--color-header);
+}

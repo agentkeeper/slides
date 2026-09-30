@@ -1,6 +1,6 @@
-# AgentKeeper Slides
+# Cardea Slides
 
-Marp-based (Markdown) slide decks for AgentKeeper presentations.
+Marp-based (Markdown) slide decks for Cardea presentations.
 
 Sibling project to `../agentkeeper` (product code) and `../docs` (product docs, positioning,
 RFCs, ADRs). Content here should stay consistent with `../docs/positioning.md`, but this repo

@@ -30,7 +30,7 @@ const html = `<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>AgentKeeper Slides</title>
+    <title>Cardea Slides</title>
     <style>
       body { font-family: sans-serif; background: #1e293b; color: #e2e8f0; padding: 2rem; }
       a { color: #38bdf8; }
@@ -39,7 +39,7 @@ const html = `<!DOCTYPE html>
     </style>
   </head>
   <body>
-${logoDeck ? '    <img class="logo" src="logo.svg" alt="AgentKeeper logo" />\n' : ''}    <h1>AgentKeeper Slides</h1>
+${logoDeck ? '    <img class="logo" src="logo.svg" alt="Cardea logo" />\n' : ''}    <h1>Cardea Slides</h1>
     <ul>
 ${items}
     </ul>
