@@ -7,7 +7,7 @@ size: 16:9
 
 <!-- _paginate: false -->
 
-# AgentKeeper
+# Cardea
 
 **Security, privacy & observability for AI agents**
 
@@ -69,9 +69,9 @@ add generic content-safety guardrails as an afterthought.
 
 ---
 
-## What AgentKeeper is
+## What Cardea is
 
-**AgentKeeper is the enterprise security, privacy, and observability layer
+**Cardea is the enterprise security, privacy, and observability layer
 for AI agents.**
 
 It governs what agents *do* — their actions with the tools, files, and
@@ -81,7 +81,7 @@ credentials they are granted — not just their calls to the model.
 
 ## Architecture
 
-AgentKeeper is a **proxy** that sits in front of your AI agents — governing
+Cardea is a **proxy** that sits in front of your AI agents — governing
 and observing what they do, wherever they run.
 
 - **The agent (required)** — deployed in **your infrastructure** or as a
@@ -110,7 +110,7 @@ and observing what they do, wherever they run.
 
 ---
 
-## What AgentKeeper is not
+## What Cardea is not
 
 - Not a multi-provider LLM router or cost optimizer — that is LiteLLM /
   OpenGateLLM / OpenRouter territory.
@@ -144,7 +144,7 @@ and observing what they do, wherever they run.
 
 What does your team need to see and control before you trust an agent with production credentials and data?
 
-- **Pilot program** — try AgentKeeper on one agent, one workflow, for 30
+- **Pilot program** — try Cardea on one agent, one workflow, for 30
   days.
 - **Custom professional services** — integration, policy design, and
   rollout support tailored to your stack and compliance requirements.

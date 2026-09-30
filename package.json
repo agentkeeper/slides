@@ -1,8 +1,8 @@
 {
-  "name": "agentkeeper-slides",
+  "name": "cardea-slides",
   "version": "0.1.0",
   "private": true,
-  "description": "Marp slide decks for AgentKeeper presentations",
+  "description": "Marp slide decks for Cardea presentations",
   "scripts": {
     "watch": "marp --watch --html --input-dir presentations --output dist",
     "build": "marp --html --input-dir presentations --output dist && node scripts/copy-assets.js && node scripts/build-index.js",
