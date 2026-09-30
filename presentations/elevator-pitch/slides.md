@@ -81,16 +81,32 @@ credentials they are granted — not just their calls to the model.
 
 ## Architecture
 
-Cardea is a **proxy** that sits in front of your AI agents — governing
-and observing what they do, wherever they run.
+Cardea is made of a **gateway** and a **platform**. The gateway sits in
+front of your AI agents — governing and observing what they do, wherever
+they run.
 
-- **The agent (required)** — deployed in **your infrastructure** or as a
+- **The gateway (required)** — deployed in **your infrastructure** or as a
   **hosted SaaS** — your choice. This is what enforces policy and captures
   activity in real time.
 
 - **The platform (optional)** — a SaaS service to collect, monitor, and
   visualize that activity across your fleet. Bring your own observability
   stack instead if you prefer — **this is where our paid services live.**
+
+---
+
+<!-- _class: screens -->
+
+## What it looks like
+
+- ![Cardea Explorer: blocked, masked and pending events, facets by agent and decision](explorer.webp)
+  **Explorer** — a live feed of allowed and denied calls, filterable by agent and decision.
+- ![Cardea map: one hexagon per machine above a data-flow graph from agents to tools to services](map.webp)
+  **Map** — every host and agent your gateways have seen, and where their data flows.
+- ![Cardea session trace: each prompt, file read and tool call of a session on one timeline](session.webp)
+  **Session trace** — what the agent did, step by step, on one timeline. Nothing it said.
+
+Proof-of-concept screens, shown with sample data.
 
 ---
 
