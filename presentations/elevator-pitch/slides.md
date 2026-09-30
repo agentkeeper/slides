@@ -15,9 +15,9 @@ size: 16:9
 
 ## The context
 
-AI agents are moving  increasingly faster from chatbots to do do-it-all autonomous actors
-call tools, browse the web, read and write files, and use credentials to get it
-done — without a human approving each step.
+AI agents are rapidly evolving from chatbots into autonomous actors: they call
+tools, browse the web, read and write files, and use credentials — without a
+human approving each step.
 
 - **Coding agents** push loads of commits, run tons of shell commands, read source repos and diverse contents.
 - **Ops/support agents** call internal APIs, query and handover sensitive customer data..
